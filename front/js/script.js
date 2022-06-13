@@ -15,7 +15,7 @@ function createProductCards(productCards){
         let productCard = document.createElement('a');
         productCard.href = `./product.html?id=${element._id}`;
         let productArticle = document.createElement('article');
-        let productImage = document.createElement ('img')
+        let productImage = document.createElement ('img');
         productImage.src = element.imageUrl;
         let productName = document.createElement('h3');
         productName.className = "productName";
